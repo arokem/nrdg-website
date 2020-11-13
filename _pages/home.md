@@ -8,8 +8,8 @@ permalink: /
 
 The Neuroinformatics R&D Group at the University of Washington [Psychology Department](https://psych.uw.edu/) and [eScience Institute](https://escience.washington.edu/) conducts research on the biological basis of brain function using computational tools that we develop and maintain.
 
+<!--
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
-    <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -20,7 +20,6 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
         <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
-    <!-- Items -->
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
@@ -53,7 +52,7 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
 
 We are grateful for funding from The [University of Washington eScience Institute](https://escience.washington.edu), from the National Institute for Mental Health, the National Institute for Biomedical Imaging and Bioengineering & The National Science Foundation
 
