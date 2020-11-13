@@ -1,9 +1,20 @@
 - title: "Combining citizen science and deep learning to amplify expertise in neuroimaging"
   image: braindr.png
-  description: Big Data promises to advance science through data-driven discovery. However, many standard lab protocols rely on manual examination, which is not feasible for large-scale datasets. Meanwhile, automated approaches lack the accuracy of expert examination. We propose to (1) start with expertly labeled data, (2) amplify labels through web applications that engage citizen scientists, and (3) train machine learning on amplified labels, to emulate the experts. Demonstrating this, we developed a system to quality control brain magnetic resonance images. Expert-labeled data were amplified by citizen scientists through a simple web interface. A deep learning algorithm was then trained to predict data quality, based on citizen scientist labels. Deep learning performed as well as specialized algorithms for quality control (AUC = 0.99). Combining citizen science and deep learning can generalize and scale expert decision making; this is particularly important in disciplines where specialized, automated tools do not yet exist.
+  description: Combining citizen science and deep learning can generalize and scale expert decision making; this is particularly important in disciplines where specialized, automated tools do not yet exist. In Braindr, expert-labeled data were amplified by citizen scientists through a simple web interface. A deep learning algorithm was then trained to predict data quality, based on citizen scientist labels. Deep learning performed as well as specialized algorithms for quality control (AUC = 0.99).
   link:
     url: https://anisha.pizza/braindr-results/
     display:  "Frontiers in Neuroinformatics, 13: 29"
   authors: Anisha Keshavan, Jason Yeatman, Ariel Rokem
+  highlight: 1
+  news2:
+
+
+- title: "Cloudknot: A Python Library to Run your Existing Code on AWS Batch"
+  image: cloudknot.png
+  description: "In the quest to minimize time-to-first-result, many computational scientists are turning to cloud-based distributed computing with commercial vendors like Amazon to run their computational workloads. Yet cloud computing remains inaccessible to many researchers. Cloudknot takes as input a Python function, Dockerizes it for use in an Amazon ECS instance, and creates all the necessary AWS Batch constituent resources to submit jobs. You can then use cloudknot to submit and view jobs for a range of inputs."
+  link:
+    url: http://conference.scipy.org/proceedings/scipy2018/adam_richie-halford.html
+    display:  "Proceedings of the 17th Python in Science Conference (2018): 8 - 14 "
+  authors: Adam Richie-Halford, Ariel Rokem
   highlight: 1
   news2:
