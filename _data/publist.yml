@@ -40,3 +40,23 @@
   authors: Daniela Huppenkothen, Anthony Arendt, David W. Hogg, Karthik Ram, Jacob T. VanderPlas, & Ariel Rokem
   highlight: 1
   news2:
+
+- title: "A model of ganglion axon pathways accounts for percepts elicited by retinal implants"
+  image: argus_shapes.jpeg
+  description: "Degenerative retinal diseases such as retinitis pigmentosa and macular degeneration cause irreversible vision loss in more than 10 million people worldwide. Retinal prostheses, now implanted in over 250 patients worldwide, electrically stimulate surviving cells in order to evoke neuronal responses that are interpreted by the brain as visual percepts (‘phosphenes’). However, instead of seeing focal spots of light, current implant users perceive highly distorted phosphenes that vary in shape both across subjects and electrodes. We characterized these distortions by asking users of the Argus retinal prosthesis system (Second Sight Medical Products Inc.) to draw electrically elicited percepts on a touchscreen. Using ophthalmic fundus imaging and computational modeling, we show that elicited percepts can be accurately predicted by the topographic organization of optic nerve fiber bundles in each subject’s retina, successfully replicating visual percepts ranging from ‘blobs’ to oriented ‘streaks’ and ‘wedges’ depending on the retinal location of the stimulating electrode. This provides the first evidence that activation of passing axon fibers accounts for the rich repertoire of phosphene shape commonly reported in psychophysical experiments, which can severely distort the quality of the generated visual experience. Overall our findings argue for more detailed modeling of biological detail across neural engineering applications."
+  link:
+    url: https://www.nature.com/articles/s41598-019-45416-4.pdf
+    display:  "Scientific Reports,  9:9199"
+  authors: Michael Beyeler, Devyani Nanduri, James D Weiland, Ariel Rokem, Geoffrey M Boynton & Ione Fine
+  highlight: 1
+  news2:
+
+- title: "`pulse2percept`: A Python-based simulation framework for bionic vision"
+  image: pulse2percept.png
+  description: "By 2020 roughly 20 million people worldwide will suffer from photoreceptor diseases such as retinitis pigmentosa and age-related macular degeneration, and a variety of retinal sight restoration technologies are being developed to target these diseases. One technology, analogous to cochlear implants, uses a grid of electrodes to stimulate remaining retinal cells. Two brands of retinal prostheses are currently approved for implantation in patients with late stage photoreceptor disease. Clinical experience with these implants has made it apparent that the vision restored by these devices differs substantially from normal sight. To better understand the outcomes of this technology, we developed pulse2percept, an open-source Python implementation of a computational model that predicts the perceptual experience of retinal prosthesis patients across a wide range of implant configurations. A modular and extensible user interface exposes the different building blocks of the software, making it easy for users to simulate novel implants, stimuli, and retinal models. We hope that this library will contribute substantially to the field of medicine by providing a tool to accelerate the development of visual prostheses."
+  link:
+    url: http://conference.scipy.org/proceedings/scipy2017/pdfs/michael_beyeler.pdf
+    display:  "Proceedings of the 16th Python in Science Conference (2017): 81 - 88"
+  authors: Michael Beyeler, Geoffrey M. Boynton, Ione Fine & Ariel Rokem
+  highlight: 1
+  news2:
