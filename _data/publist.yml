@@ -1,6 +1,6 @@
 - title: "Combining citizen science and deep learning to amplify expertise in neuroimaging"
   image: braindr.jpg
-  description: Combining citizen science and deep learning can generalize and scale expert decision making; this is particularly important in disciplines where specialized, automated tools do not yet exist. In Braindr, expert-labeled data were amplified by citizen scientists through a simple web interface. A deep learning algorithm was then trained to predict data quality, based on citizen scientist labels. Deep learning performed as well as specialized algorithms for quality control (AUC = 0.99).
+  description: "Combining citizen science and deep learning can generalize and scale expert decision making; this is particularly important in disciplines where specialized, automated tools do not yet exist. In Braindr, expert-labeled data were amplified by citizen scientists through a simple web interface. A deep learning algorithm was then trained to predict data quality, based on citizen scientist labels. Deep learning performed as well as specialized algorithms for quality control (AUC = 0.99)."
   link:
     url: https://anisha.pizza/braindr-results/
     display:  "Frontiers in Neuroinformatics, 13: 29"
@@ -9,7 +9,7 @@
   news2:
 
 
-- title: "Cloudknot: A Python Library to Run your Existing Code on AWS Batch"
+- title: "Cloudknot: A Python library to run your existing code on AWS Batch"
   image: cloudknot.png
   description: "In the quest to minimize time-to-first-result, many computational scientists are turning to cloud-based distributed computing with commercial vendors like Amazon to run their computational workloads. Yet cloud computing remains inaccessible to many researchers. Cloudknot takes as input a Python function, Dockerizes it for use in an Amazon ECS instance, and creates all the necessary AWS Batch constituent resources to submit jobs. You can then use cloudknot to submit and view jobs for a range of inputs."
   link:
@@ -27,5 +27,16 @@
     url: https://www.nature.com/articles/s41467-018-03297-7
     display:  "Nature Communications: 9, Article number: 940"
   authors: Jason Yeatman, Adam Richie-Halford, Josh Smith, Anisha Keshavan & Ariel Rokem
+  highlight: 1
+  news2:
+
+
+- title: "Hack weeks as a model for data science education and collaboration."
+  image: hackweeks.jpg
+  description: "As scientific disciplines grapple with more datasets of rapidly increasing complexity and size, new approaches are urgently required to introduce new statistical and computational tools into research communities and improve the cross-disciplinary exchange of ideas. In this paper, we introduce a type of scientific workshop, called a hack week, which allows for fast dissemination of new methodologies into scientific communities and fosters exchange and collaboration within and between disciplines. We present implementations of this concept in astronomy, neuroscience, and geoscience and show that hack weeks produce positive learning outcomes, foster lasting collaborations, yield scientific results, and promote positive attitudes toward open science."
+  link:
+    url: https://www.pnas.org/content/115/36/8872
+    display:  "PNAS, 115: 8872-8877"
+  authors: Daniela Huppenkothen, Anthony Arendt, David W. Hogg, Karthik Ram, Jacob T. VanderPlas, & Ariel Rokem
   highlight: 1
   news2:
