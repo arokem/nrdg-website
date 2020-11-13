@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "NRDG - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "NRDG -- Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -9,9 +9,10 @@ permalink: /publications/
 
 # Publications
 
-## Group highlights
+For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=hrBeLVYAAAAJ&hl=en)
 
-(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=TqxYWZsAAAAJ), [ResearcherID](https://www.researcherid.com/rid/D-7763-2012))
+## Highlights
+
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
