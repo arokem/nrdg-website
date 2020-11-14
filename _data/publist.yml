@@ -1,3 +1,15 @@
+- title: "Multidimensional analysis and detection of informative features in diffusion MRI measurements of human white matter"
+  image: dMRI_group_structure.png
+  description: "The white matter contains long-range connections between different brain regions and the organization of these connections holds important implications for brain function in health and disease. Tractometry uses diffusion-weighted magnetic resonance imaging (dMRI) data to quantify tissue properties along the trajectories of these connections. In the present work, we developed a method based on the sparse group lasso (SGL) that takes into account tissue properties measured along all of the bundles, and selects informative features by enforcing sparsity, not only at the level of individual bundles, but also across the entire set of bundles and all of the measured tissue properties. The sparsity penalties for each of these constraints is identified using a nested cross-validation scheme that guards against over-fitting and simultaneously identifies the correct level of sparsity. SGL makes it possible to leverage the multivariate relationship between diffusion properties measured along multiple bundles to make accurate predictions of subject characteristics while simultaneously discovering the most relevant features of the white matter for the characteristic of interest."
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2019.12.19.882928v1
+    display:  "BiorXiv preprint"
+  authors: Adam Richie-Halford, Jason Yeatman,  Noah Simon & Ariel Rokem
+  highlight: 1
+  connectomics: 1
+  news2:
+
+
 - title: "Combining citizen science and deep learning to amplify expertise in neuroimaging"
   image: braindr.jpg
   description: "Combining citizen science and deep learning can generalize and scale expert decision making; this is particularly important in disciplines where specialized, automated tools do not yet exist. In Braindr, expert-labeled data were amplified by citizen scientists through a simple web interface. A deep learning algorithm was then trained to predict data quality, based on citizen scientist labels. Deep learning performed as well as specialized algorithms for quality control (AUC = 0.99)."
@@ -6,6 +18,7 @@
     display:  "Frontiers in Neuroinformatics, 13: 29"
   authors: Anisha Keshavan, Jason Yeatman & Ariel Rokem
   highlight: 1
+  connectomics: 1
   news2:
 
 
@@ -18,6 +31,7 @@
   authors: Adam Richie-Halford & Ariel Rokem
   highlight: 1
   news2:
+  cloud: 1
 
 
 - title: "A browser-based tool for visualization and analysis of diffusion MRI data"
@@ -28,6 +42,8 @@
     display:  "Nature Communications: 9, Article number: 940"
   authors: Jason Yeatman, Adam Richie-Halford, Josh Smith, Anisha Keshavan & Ariel Rokem
   highlight: 1
+  connectomics: 1
+  cloud: 1
   news2:
 
 
@@ -39,6 +55,7 @@
     display:  "PNAS, 115: 8872-8877"
   authors: Daniela Huppenkothen, Anthony Arendt, David W. Hogg, Karthik Ram, Jacob T. VanderPlas, & Ariel Rokem
   highlight: 1
+  datasci: 1
   news2:
 
 - title: "A model of ganglion axon pathways accounts for percepts elicited by retinal implants"
