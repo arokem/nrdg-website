@@ -24,23 +24,23 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
         <div class="item active">
             <a href="https://yeatmanlab.github.io/AFQ-Browser/"><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/white-matter-connections.gif" alt="Slide 1" /></a>
         </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/retinal_edema.png" alt="Slide 2" />
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloud_city.jpg" alt="Slide 7" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/neurohack-collage.png" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/healthy_ig.png" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/dMRI_group_structure.png" alt="Slide 5" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/dMRI_group_structure.png" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/healthy_ig.png" alt="Slide 4" />
         </div>
         <div class="item">
             <a href="https://dipy.org"><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/dipy-logo.png" alt="Slide 6" /></a>
         </div>
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloud_city.jpg" alt="Slide 7" />
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/retinal_edema.png" alt="Slide 2" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">

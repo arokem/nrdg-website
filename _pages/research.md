@@ -40,6 +40,8 @@ White matter connections between brain regions form a network that integrates in
 
 ## Cloud-enabled data-driven discovery
 
+### Tools and publications:
+
 {% for publi in site.data.publist %}
   {% if publi.cloud == 1 %}
 
@@ -52,6 +54,16 @@ White matter connections between brain regions form a network that integrates in
 
 ## Statistical computing
 
+### Tools and publications:
+
+{% for publi in site.data.publist %}
+  {% if publi.stats == 1 %}
+
+  {{ publi.title }} <br />
+    <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  {% endif %}
+
+{% endfor %}
 
 
 ## Data science education and practice
