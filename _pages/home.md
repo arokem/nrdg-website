@@ -1,7 +1,7 @@
 ---
 title: "The UW Neuroinformatics R&D Group "
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "The UW Neuroinformatics R&D Group"
 sitemap: false
 permalink: /
 ---
