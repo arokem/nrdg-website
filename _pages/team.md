@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-Jump to [staff](#staff), [alumni](#alumni), [collaborators](#lab-visitors).
+Jump to [staff](#staff), [alumni](#alumni), [collaborators](#collaborators).
 
 ## Staff
 {% assign number_printed = 0 %}
@@ -26,6 +26,11 @@ Jump to [staff](#staff), [alumni](#alumni), [collaborators](#lab-visitors).
   {% if member.email%}
   email: <{{ member.email }}>
   {% endif %}
+
+  {% if member.website%}
+  <a href="{{ member.website }}">Website</a>
+  {% endif %}
+
 
   <ul style="overflow: hidden">
 
@@ -114,7 +119,7 @@ Jump to [staff](#staff), [alumni](#alumni), [collaborators](#lab-visitors).
 
 <div class="col-sm-4 clearfix">
 {% for member in site.data.collaborators %}
-{{ member.name }}
+<a href="{{member.website}}">{{ member.name }}</a>
 {% endfor %}
 </div>
 

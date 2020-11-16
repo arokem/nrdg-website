@@ -1,9 +1,20 @@
-- name: "[Ione Fine](https://faculty.washington.edu/ionefine/)"
+- name: Ione Fine
+  website: https://faculty.washington.edu/ionefine/
 
-- name: "[Geoff Boynton](https://faculty.washington.edu/gboynton/)"
+- name: Geoff Boynton
+  website: https://faculty.washington.edu/gboynton/
 
-- name: "[Jason Yeatman](https://ed.stanford.edu/faculty/jyeatman)"
+- name: Jason Yeatman
+  website: https://ed.stanford.edu/faculty/jyeatman
 
-- name: "[Noah Simon](http://faculty.washington.edu/nrsimon/)"
+- name: Noah Simon
+  website: http://faculty.washington.edu/nrsimon/
 
-- name: "[Tal Yarkoni](https://talyarkoni.org/)"
+- name: Tal Yarkoni
+  website: https://talyarkoni.org/
+
+- name: Eleftherios Garyfallidis
+  website: https://grg.sice.indiana.edu/
+
+- name: Adrienne Fairhall
+  website: https://fairhalllab.com
