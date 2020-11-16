@@ -25,7 +25,7 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
             <a href="https://yeatmanlab.github.io/AFQ-Browser/"><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/white-matter-connections.gif" alt="Slide 1" /></a>
         </div>
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloud_city.jpg" alt="Slide 7" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloud_city.png" alt="Slide 7" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/neurohack-collage.png" alt="Slide 3" />
