@@ -28,7 +28,11 @@ White matter connections between brain regions form a network that integrates in
 
 ## Vision science
 
-The human visual system is
+We work on modeling and analysis of the biology of the early visual system. In some projects, we created phenomenological models of
+retinal processing, that simulate prosthetic vision. These models, implemented in software are useful for assessing the utility
+of these devices and as tools for designing new devices and stimulation protocols. In other projects, we analyze data about
+retinal health from large-scale databases. We are also interested to understand how the biology of networks in the early visual
+system evolves over time, and in response to disease.
 
 {% for publi in site.data.publist %}
   {% if publi.vision == 1 %}
@@ -57,8 +61,6 @@ Progress in understanding the brain depends on sophisticated analysis of massive
 {% endfor %}
 
 
-## Statistical computing
-
 ### Tools and publications:
 
 {% for publi in site.data.publist %}
@@ -71,7 +73,10 @@ Progress in understanding the brain depends on sophisticated analysis of massive
 {% endfor %}
 
 
-## Data science education and practice
+## Data science
+
+As we apply tools from statistical learning to problems in neuroscience, we also end up developing general purpose
+open-source statistical computing tools. Our lab is also involved in a variety of ways in data science education and training.
 
 {% for publi in site.data.publist %}
   {% if publi.datasci == 1 %}

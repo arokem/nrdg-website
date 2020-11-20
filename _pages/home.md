@@ -22,10 +22,10 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <a href="https://yeatmanlab.github.io/AFQ-Browser/"><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/white-matter-connections.gif" alt="Slide 1" /></a>
+            <a href="https://autofq.org"><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/white-matter-connections.gif" alt="Slide 1" /></a>
         </div>
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloud_city.png" alt="Slide 7" />
+            <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cloud_city.png" alt="Slide 7" /></a>
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/neurohack-collage.png" alt="Slide 3" />
@@ -56,8 +56,8 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
 We are grateful for funding from The [University of Washington eScience Institute](https://escience.washington.edu), from the National Institute for Mental Health, the National Institute for Biomedical Imaging and Bioengineering & The National Science Foundation
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIH.png" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.jpeg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BRAINI.png" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_eScience.png" style="width: 400px">
+  <a href="https://www.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIH.png" style="width: 120px"></a>
+  <a href="https://nsf.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.jpeg" style="width: 110px"></a>
+  <a href="https://braininitiative.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BRAINI.png" style="width: 100px">
+  <a href="https://escience.washington.edu/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_eScience.png" style="width: 400px"></a>
 </figure>
