@@ -53,7 +53,9 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
   </a>
 </div>
 
-We are grateful for funding from The [University of Washington eScience Institute](https://escience.washington.edu), from the National Institute for Mental Health, the National Institute for Biomedical Imaging and Bioengineering & The National Science Foundation
+We are grateful for funding from The [University of Washington eScience Institute](https://escience.washington.edu), from the National Institute for Mental Health, the National Institute for Biomedical Imaging and Bioengineering & The National Science Foundation.
+
+For more information about why and how we do what we do, please visit our [standard operating procedures](https://nrdg.github.io/sop)
 
 <figure class="fourth">
   <a href="https://www.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIH.png" style="width: 120px"></a>
