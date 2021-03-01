@@ -1,3 +1,14 @@
+- title: "Evaluating the reliability of human brain white matter tractometry"
+  image: pyAFQ.png
+  description: "The validity of research results depends on the reliability of analysis methods. In recent years, there have been concerns about the validity of research that uses diffusion-weighted MRI (dMRI) to understand human brain white matter connections in vivo, in part based on reliability of the analysis methods used in this field. We defined and assessed three dimensions of reliability in dMRI-based tractometry, an analysis technique that assesses the physical properties of white matter pathways: (1) reproducibility, (2) test-retest reliability and (3) robustness. To facilitate reproducibility, we provide software that automates tractometry (https://yeatmanlab.github.io/pyAFQ). In measurements from the Human Connectome Project, as well as clinical-grade measurements, we find that tractometry has high test-retest reliability that is comparable to most standardized clinical assessment tools. We find that tractometry is also robust: showing high reliability with different choices of analysis algorithms. Taken together, our results suggest that tractometry is a reliable approach to analysis of white matter connections. The overall approach taken here both demonstrates the specific trustworthiness of tractometry analysis and outlines what researchers can do to demonstrate the reliability of computational analysis pipelines in neuroimaging."
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2021.02.24.432740v1
+    display:  "BiorXiv preprint"
+  authors: John Kruper, Jason Yeatman, Adam Richie-Halford, David Bloom, Mareike Grotheer, Sendy Caffarra, Gregory Kiar, Iliana Karipidis, Ethan Roy & Ariel Rokem
+  highlight: 1
+  connectomics: 1
+  news2:
+
 - title: "Groupyr: Sparse Group Lasso in Python"
   image: groupyr.png
   description: "Groupyr is a scikit-learn compatible implementation of the sparse group lasso linear model. It is intended for high-dimensional supervised learning problems where related covariates can be assigned to predefined groups."
