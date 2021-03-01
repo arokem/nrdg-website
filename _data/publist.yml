@@ -1,3 +1,16 @@
+- title: "Groupyr: Sparse Group Lasso in Python"
+  image: groupyr.png
+  description: "Groupyr is a scikit-learn compatible implementation of the sparse group lasso linear model. It is intended for high-dimensional supervised learning problems where related covariates can be assigned to predefined groups."
+  link:
+    url: https://joss.theoj.org/papers/10.21105/joss.03024
+    display:  "Journal of Open Source Software, 6(58), 3024"
+  authors: Adam Richie-Halford, Manjari Narayan, Jason Yeatman,  Noah Simon & Ariel Rokem
+  highlight: 1
+  datasci: 1
+  news2:
+
+
+
 - title: "Multidimensional analysis and detection of informative features in diffusion MRI measurements of human white matter"
   image: dMRI_group_structure.png
   description: "The white matter contains long-range connections between different brain regions and the organization of these connections holds important implications for brain function in health and disease. Tractometry uses diffusion-weighted magnetic resonance imaging (dMRI) data to quantify tissue properties along the trajectories of these connections. In the present work, we developed a method based on the sparse group lasso (SGL) that takes into account tissue properties measured along all of the bundles, and selects informative features by enforcing sparsity, not only at the level of individual bundles, but also across the entire set of bundles and all of the measured tissue properties. The sparsity penalties for each of these constraints is identified using a nested cross-validation scheme that guards against over-fitting and simultaneously identifies the correct level of sparsity. SGL makes it possible to leverage the multivariate relationship between diffusion properties measured along multiple bundles to make accurate predictions of subject characteristics while simultaneously discovering the most relevant features of the white matter for the characteristic of interest."
