@@ -76,7 +76,7 @@ Progress in understanding the brain depends on sophisticated analysis of massive
 ## Data science
 
 As we apply tools from statistical learning to problems in neuroscience, we also end up developing general purpose
-open-source statistical computing tools. Our lab is also involved in a variety of ways in data science education and training.
+open-source statistical computing tools. Our group is also involved in a variety of ways in data science education and training.
 
 {% for publi in site.data.publist %}
   {% if publi.datasci == 1 %}
