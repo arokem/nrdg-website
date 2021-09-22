@@ -1,10 +1,50 @@
+- title: "Automated detection of glaucoma with interpretable machine learning using clinical data and multi-modal retinal images"
+  image:
+  description: "Glaucoma, the leading cause of irreversible blindness worldwide, is a disease that damages the optic
+nerve. Current machine learning (ML) approaches for glaucoma detection rely on
+features such as retinal thickness maps; however, the high rate of segmentation
+errors when creating these maps increase the likelihood of faulty diagnoses.
+This paper proposes a new, comprehensive, and more accurate ML-based approach
+for population-level glaucoma screening. Our contributions include: (1) a
+multi-modal model built upon a large data set that includes demographic,
+systemic and ocular data as well as raw image data taken from color fundus
+photos (CFPs) and macular Optical Coherence Tomography (OCT) scans, (2) model
+interpretation to identify and explain data features that lead to accurate model
+performance, and (3) model validation via comparison of model output with
+clinician interpretation of CFPs. We also validated the model on a cohort that
+was not diagnosed with glaucoma at the time of imaging but eventually received a
+glaucoma diagnosis. Results show that our model is highly accurate (AUC 0.97)
+and interpretable. It validated biological features known to be related to the
+disease, such as age, intraocular pressure and optic disc morphology. Our model
+also points to previously unknown or disputed features, such as pulmonary
+capacity and retinal outer layers."
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2021.02.24.432740v1
+    display:  "American Journal of Ophthalmology"
+  authors: Parmita Mehta, Christine A Petersen, Joanne C Wen, Michael R Banitt, Philip P Chen, Karine D Bojikian, Catherine Egan, Su-In Lee, Magdalena Balazinska, Aaron Y Lee & Ariel Rokem (last two authors contributed equally)
+  highlight: 1
+  datasci: 1
+  news2:
+
+
 - title: "Evaluating the reliability of human brain white matter tractometry"
   image: pyAFQ.png
   description: "The validity of research results depends on the reliability of analysis methods. In recent years, there have been concerns about the validity of research that uses diffusion-weighted MRI (dMRI) to understand human brain white matter connections in vivo, in part based on reliability of the analysis methods used in this field. We defined and assessed three dimensions of reliability in dMRI-based tractometry, an analysis technique that assesses the physical properties of white matter pathways: (1) reproducibility, (2) test-retest reliability and (3) robustness. To facilitate reproducibility, we provide software that automates tractometry (https://yeatmanlab.github.io/pyAFQ). In measurements from the Human Connectome Project, as well as clinical-grade measurements, we find that tractometry has high test-retest reliability that is comparable to most standardized clinical assessment tools. We find that tractometry is also robust: showing high reliability with different choices of analysis algorithms. Taken together, our results suggest that tractometry is a reliable approach to analysis of white matter connections. The overall approach taken here both demonstrates the specific trustworthiness of tractometry analysis and outlines what researchers can do to demonstrate the reliability of computational analysis pipelines in neuroimaging."
   link:
     url: https://www.biorxiv.org/content/10.1101/2021.02.24.432740v1
-    display:  "BiorXiv preprint"
+    display:  "Aperture (in press)"
   authors: John Kruper, Jason Yeatman, Adam Richie-Halford, David Bloom, Mareike Grotheer, Sendy Caffarra, Gregory Kiar, Iliana Karipidis, Ethan Roy & Ariel Rokem
+  highlight: 1
+  connectomics: 1
+  news2:
+
+- title: "Multidimensional analysis and detection of informative features in diffusion MRI measurements of human white matter"
+  image: dMRI_group_structure.png
+  description: "The white matter contains long-range connections between different brain regions and the organization of these connections holds important implications for brain function in health and disease. Tractometry uses diffusion-weighted magnetic resonance imaging (dMRI) data to quantify tissue properties along the trajectories of these connections. In the present work, we developed a method based on the sparse group lasso (SGL) that takes into account tissue properties measured along all of the bundles, and selects informative features by enforcing sparsity, not only at the level of individual bundles, but also across the entire set of bundles and all of the measured tissue properties. The sparsity penalties for each of these constraints is identified using a nested cross-validation scheme that guards against over-fitting and simultaneously identifies the correct level of sparsity. SGL makes it possible to leverage the multivariate relationship between diffusion properties measured along multiple bundles to make accurate predictions of subject characteristics while simultaneously discovering the most relevant features of the white matter for the characteristic of interest."
+  link:
+    url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009136
+    display: "PLoS Computational Biology: 17(6): e1009136"
+  authors: Adam Richie-Halford, Jason Yeatman,  Noah Simon & Ariel Rokem
   highlight: 1
   connectomics: 1
   news2:
@@ -19,20 +59,6 @@
   highlight: 1
   datasci: 1
   news2:
-
-
-
-- title: "Multidimensional analysis and detection of informative features in diffusion MRI measurements of human white matter"
-  image: dMRI_group_structure.png
-  description: "The white matter contains long-range connections between different brain regions and the organization of these connections holds important implications for brain function in health and disease. Tractometry uses diffusion-weighted magnetic resonance imaging (dMRI) data to quantify tissue properties along the trajectories of these connections. In the present work, we developed a method based on the sparse group lasso (SGL) that takes into account tissue properties measured along all of the bundles, and selects informative features by enforcing sparsity, not only at the level of individual bundles, but also across the entire set of bundles and all of the measured tissue properties. The sparsity penalties for each of these constraints is identified using a nested cross-validation scheme that guards against over-fitting and simultaneously identifies the correct level of sparsity. SGL makes it possible to leverage the multivariate relationship between diffusion properties measured along multiple bundles to make accurate predictions of subject characteristics while simultaneously discovering the most relevant features of the white matter for the characteristic of interest."
-  link:
-    url: https://www.biorxiv.org/content/10.1101/2019.12.19.882928v1
-    display:  "BiorXiv preprint"
-  authors: Adam Richie-Halford, Jason Yeatman,  Noah Simon & Ariel Rokem
-  highlight: 1
-  connectomics: 1
-  news2:
-
 
 - title: "Combining citizen science and deep learning to amplify expertise in neuroimaging"
   image: braindr.jpg

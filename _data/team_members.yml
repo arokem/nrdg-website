@@ -4,6 +4,15 @@
   email: arokem@uw.edu
   website: https://arokem.org
 
+- name: McKenzie Hagen
+  photo: mckenzie_headshot.jpg
+  info: Graduate student, started 2021
+  # email: foo@uw.edu
+  # number_educ: 3
+  # education1:
+  # education2:
+  # education3:
+
 - name: Ezgi Yucel
   photo: ezgirmak.jpeg
   info: Graduate student (with [Ione Fine](https://faculty.washington.edu/ionefine/)), started 2017
@@ -26,15 +35,6 @@
 - name: John Kruper
   photo: jk.jpeg
   info: Post-bacc student, started July 2020
-  # email: foo@uw.edu
-  # number_educ: 3
-  # education1:
-  # education2:
-  # education3:
-
-- name: David Bloom
-  photo: bloomdt.png
-  info: Post-bacc student, started September 2020
   # email: foo@uw.edu
   # number_educ: 3
   # education1:

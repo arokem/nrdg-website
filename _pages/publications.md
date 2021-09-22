@@ -6,12 +6,9 @@ sitemap: false
 permalink: /publications/
 ---
 
+# Selected publications
 
-# Publications
-
-For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=hrBeLVYAAAAJ&hl=en)
-
-## Highlights
+For a full list please visit [Google Scholar](https://scholar.google.com/citations?user=hrBeLVYAAAAJ&hl=en)
 
 
 {% assign number_printed = 0 %}
@@ -53,11 +50,11 @@ For a full list see [below](#full-list) or go to [Google Scholar](https://schola
 <p> &nbsp; </p>
 
 
-## Full List
+<!-- ## Full List
 
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
-{% endfor %}
+{% endfor %} -->
