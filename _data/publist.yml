@@ -1,5 +1,5 @@
 - title: "Automated detection of glaucoma with interpretable machine learning using clinical data and multi-modal retinal images"
-  image:
+  image: interpretable_glaucoma
   description: "Glaucoma, the leading cause of irreversible blindness worldwide, is a disease that damages the optic
 nerve. Current machine learning (ML) approaches for glaucoma detection rely on
 features such as retinal thickness maps; however, the high rate of segmentation
