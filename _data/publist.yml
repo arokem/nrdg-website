@@ -7,6 +7,7 @@
     authors: Adam Richie-Halford, Matthew Cieslak, Lei Ai, Sendy Caffarra, Sydney Covitz, Alexandre R. Franco, Iliana I. Karipidis, John Kruper, Michael Milham, Bárbara Avelar-Pereira, Ethan Roy, Valerie J. Sydnor, Jason Yeatman, The Fibr Community Science Consortium, Theodore D. Satterthwaite, Ariel Rokem
   highlight: 1
   connectomics: 1
+  news2:
 
 - title: "Automated detection of glaucoma with interpretable machine learning using clinical data and multi-modal retinal images"
   image: interpretable_glaucoma.jpg
@@ -34,6 +35,7 @@ capacity and retinal outer layers."
   authors: Parmita Mehta, Christine A Petersen, Joanne C Wen, Michael R Banitt, Philip P Chen, Karine D Bojikian, Catherine Egan, Su-In Lee, Magdalena Balazinska, Aaron Y Lee & Ariel Rokem (last two authors contributed equally)
   highlight: 1
   datasci: 1
+  vision: 1
   news2:
 
 
@@ -126,6 +128,7 @@ capacity and retinal outer layers."
     display:  "Scientific Reports,  9:9199"
   authors: Michael Beyeler, Devyani Nanduri, James D Weiland, Ariel Rokem, Geoffrey M Boynton & Ione Fine
   highlight: 1
+  vision: 1
   news2:
 
 - title: "`pulse2percept`: A Python-based simulation framework for bionic vision"
@@ -136,4 +139,5 @@ capacity and retinal outer layers."
     display:  "Proceedings of the 16th Python in Science Conference (2017): 81 - 88"
   authors: Michael Beyeler, Geoffrey M. Boynton, Ione Fine & Ariel Rokem
   highlight: 1
+  vision: 1
   news2:
