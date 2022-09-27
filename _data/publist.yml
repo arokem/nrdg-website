@@ -77,7 +77,6 @@ capacity and retinal outer layers."
     url: https://joss.theoj.org/papers/10.21105/joss.03024
     display:  "Journal of Open Source Software, 6(58), 3024"
   authors: Adam Richie-Halford, Manjari Narayan, Jason Yeatman,  Noah Simon & Ariel Rokem
-  highlight: 1
   datasci: 1
   news2:
 
@@ -100,7 +99,6 @@ capacity and retinal outer layers."
     url: http://conference.scipy.org/proceedings/scipy2018/adam_richie-halford.html
     display:  "Proceedings of the 17th Python in Science Conference (2018): 8 - 14 "
   authors: Adam Richie-Halford & Ariel Rokem
-  highlight: 1
   news2:
   cloud: 1
 
@@ -136,17 +134,5 @@ capacity and retinal outer layers."
     url: https://www.nature.com/articles/s41598-019-45416-4.pdf
     display:  "Scientific Reports,  9:9199"
   authors: Michael Beyeler, Devyani Nanduri, James D Weiland, Ariel Rokem, Geoffrey M Boynton & Ione Fine
-  highlight: 1
-  vision: 1
-  news2:
-
-- title: "`pulse2percept`: A Python-based simulation framework for bionic vision"
-  image: pulse2percept.png
-  description: "By 2020 roughly 20 million people worldwide will suffer from photoreceptor diseases such as retinitis pigmentosa and age-related macular degeneration, and a variety of retinal sight restoration technologies are being developed to target these diseases. One technology, analogous to cochlear implants, uses a grid of electrodes to stimulate remaining retinal cells. Two brands of retinal prostheses are currently approved for implantation in patients with late stage photoreceptor disease. Clinical experience with these implants has made it apparent that the vision restored by these devices differs substantially from normal sight. To better understand the outcomes of this technology, we developed pulse2percept, an open-source Python implementation of a computational model that predicts the perceptual experience of retinal prosthesis patients across a wide range of implant configurations. A modular and extensible user interface exposes the different building blocks of the software, making it easy for users to simulate novel implants, stimuli, and retinal models. We hope that this library will contribute substantially to the field of medicine by providing a tool to accelerate the development of visual prostheses."
-  link:
-    url: http://conference.scipy.org/proceedings/scipy2017/pdfs/michael_beyeler.pdf
-    display:  "Proceedings of the 16th Python in Science Conference (2017): 81 - 88"
-  authors: Michael Beyeler, Geoffrey M. Boynton, Ione Fine & Ariel Rokem
-  highlight: 1
   vision: 1
   news2:
