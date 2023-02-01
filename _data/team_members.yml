@@ -6,16 +6,15 @@
 
 - name: McKenzie Hagen
   photo: mckenzie_headshot.jpg
-  info: Graduate student, started 2021
-  # email: foo@uw.edu
-  # number_educ: 3
-  # education1:
-  # education2:
-  # education3:
+  info: Research Scientist
 
-- name: Ezgi Yucel
-  photo: ezgirmak.jpeg
-  info: Graduate student (with [Ione Fine](https://faculty.washington.edu/ionefine/)), started 2017
+- name: Teresa Gomez
+  photo: rock.jpg
+  info: Post-bacc student
+
+- name: McKenzie Hagen
+  photo: mckenzie_headshot.jpg
+  info: Graduate student
   # email: foo@uw.edu
   # number_educ: 3
   # education1:
@@ -24,13 +23,20 @@
 
 - name: John Kruper
   photo: jk.jpeg
-  info: Post-bacc student, started July 2020
+  info: Post-bacc student
   # email: foo@uw.edu
   # number_educ: 3
   # education1:
   # education2:
   # education3:
 
-- name: Teresa Gomez
-  photo: rock.jpg
-  info: Post-bacc student, started January 2022
+- name: Ezgi Yucel
+  photo: ezgirmak.jpeg
+  info: Graduate student (with [Ione Fine](https://faculty.washington.edu/ionefine/))
+  # email: foo@uw.edu
+  # number_educ: 3
+  # education1:
+  # education2:
+  # education3:
+
+
