@@ -1,29 +1,28 @@
-- name: Ted Satthertwaite
-  website: https://www.pennlinc.io/team/Ted-Satterthwaite
+- name: Geoff Boynton
+  website: https://faculty.washington.edu/gboynton/
 
 - name: Ione Fine
   website: https://faculty.washington.edu/ionefine/
 
-- name: Geoff Boynton
-  website: https://faculty.washington.edu/gboynton/
-
-- name: Jason Yeatman
-  website: https://ed.stanford.edu/faculty/jyeatman
-
-- name: Noah Simon
-  website: http://faculty.washington.edu/nrsimon/
-
 - name: Eleftherios Garyfallidis
   website: https://grg.sice.indiana.edu/
-
-- name: Adrienne Fairhall
-  website: https://fairhalllab.com
-
-- name: Cecilia and Aaron Lee
-  website: https://comp.ophthalmology.uw.edu/
 
 - name: Mareike Grotheer
   website: https://www.mareikegrotheer.com/
 
-- name: Tristan Glatard
-  website: https://users.encs.concordia.ca/~tglatard/
+- name: Cecilia and Aaron Lee
+  website: https://comp.ophthalmology.uw.edu/
+
+- name: Eardi Lila
+  website: https://faculty.washington.edu/elila/
+
+- name: Scott Murray
+  website: https://courses.washington.edu/viscog/ScottMurray.html
+
+- name: Ted Satthertwaite
+  website: https://www.pennlinc.io/team/Ted-Satterthwaite
+
+- name: Jason Yeatman
+  website: https://ed.stanford.edu/faculty/jyeatman
+
+
