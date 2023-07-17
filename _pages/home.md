@@ -53,7 +53,7 @@ The Neuroinformatics R&D Group at the University of Washington [Psychology Depar
   </a>
 </div>
 
-We are grateful for funding from The [University of Washington eScience Institute](https://escience.washington.edu), from the National Institute for Mental Health, the National Institute for Biomedical Imaging and Bioengineering & The National Science Foundation.
+We are grateful for funding from The [University of Washington eScience Institute](https://escience.washington.edu), from the National Institute for Mental Health, the National Institute for Biomedical Imaging and Bioengineering, The National Science Foundation and the Chan Zuckerberg Initiative, as well as support fom Amazon Web Services, Google Cloud Platform, and Microsoft Azure.
 
 For more information about why and how we do what we do, please visit our [standard operating procedures](https://nrdg.github.io/sop)
 
@@ -62,4 +62,6 @@ For more information about why and how we do what we do, please visit our [stand
   <a href="https://nsf.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.jpeg" style="width: 110px"></a>
   <a href="https://braininitiative.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BRAINI.png" style="width: 100px">
   <a href="https://escience.washington.edu/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_eScience.png" style="width: 400px"></a>
+<a href="https://www.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/czi_logo.png" style="width: 120px"></a>
+
 </figure>
