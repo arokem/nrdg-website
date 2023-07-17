@@ -4,7 +4,7 @@
   link:
     url: https://www.biorxiv.org/content/10.1101/2023.03.02.530800v1
     display: "PNAS (*in press*)"
-  authors: Mareike Grotheer, David Bloom, John Kruper, Adam Richie-Halford, Stephanie Zika, Vicente A. Aguilera González, Jason D. Yeatman, Kalanit Grill-Spector, Ariel Rokem
+  authors: Mareike Grotheer, David Bloom, John Kruper, Adam Richie-Halford, Stephanie Zika, Vicente A. Aguilera González, Jason D. Yeatman, Kalanit Grill-Spector & Ariel Rokem
   highlight: 1
   connectomics: 1
   news2:
@@ -15,7 +15,7 @@
   link:
     url: https://onlinelibrary.wiley.com/doi/10.1002/hbm.26267
     display: "Human Brain Mapping 44 (8), 3123-3135"
-  authors: John Kruper, Noah C. Benson, Sendy Caffarra, Julia Owen, Yue Wu, Aaron Y. Lee, Cecilia S. Lee, Jason D. Yeatman, Ariel Rokem, UK Biobank Eye and Vision Consortium
+  authors: John Kruper, Noah C. Benson, Sendy Caffarra, Julia Owen, Yue Wu, Aaron Y. Lee, Cecilia S. Lee, Jason D. Yeatman, Ariel Rokem & UK Biobank Eye and Vision Consortium
   highlight: 1
   connectomics: 1
   vision: 1
@@ -26,7 +26,7 @@
   link:
     url: https://www.biorxiv.org/content/10.1101/2023.03.02.530885v1
     display: "biorxiv"
-  authors: Ariel Rokem, Joanna Qiao, Jason D. Yeatman, Adam Richie-Halford
+  authors: Ariel Rokem, Joanna Qiao, Jason D. Yeatman & Adam Richie-Halford
   connectomics: 1
   datasci: 1
   news2:
@@ -36,7 +36,7 @@
   link:
     url: https://ieeexplore.ieee.org/abstract/document/9652624
     display: "2021 IEEE Workshop on Workflows in Support of Large-Scale Science (WORKS)"
-  authors: Valerie Hayot-Sasson, Tristan Glatard, Ariel Rokem
+  authors: Valerie Hayot-Sasson, Tristan Glatard & Ariel Rokem
   cloud: 1
   news2:
 

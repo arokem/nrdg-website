@@ -60,23 +60,12 @@ Progress in understanding the brain depends on sophisticated analysis of massive
 
 {% endfor %}
 
-
-### Tools and publications:
-
-{% for publi in site.data.publist %}
-  {% if publi.stats == 1 %}
-
-  {{ publi.title }} <br />
-    <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  {% endif %}
-
-{% endfor %}
-
-
 ## Data science
 
 As we apply tools from statistical learning to problems in neuroscience, we also end up developing general purpose
 open-source statistical computing tools. Our group is also involved in a variety of ways in data science education and training.
+
+### Tools and publications:
 
 {% for publi in site.data.publist %}
   {% if publi.datasci == 1 %}
