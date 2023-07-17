@@ -61,7 +61,7 @@ For more information about why and how we do what we do, please visit our [stand
   <a href="https://www.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIH.png" style="width: 100px"></a>
   <a href="https://nsf.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.jpeg" style="width: 100px"></a>
   <a href="https://braininitiative.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BRAINI.png" style="width: 80px">
+  <a href="https://www.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/czi_logo.png" style="width: 80px"></a>
   <a href="https://escience.washington.edu/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_eScience.png" style="width: 300px"></a>
-<a href="https://www.nih.gov/"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/czi_logo.png" style="width: 80px"></a>
 
 </figure>
