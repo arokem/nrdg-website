@@ -1,3 +1,36 @@
+- title: "Human white matter myelinates faster in utero than ex utero"
+  image: baby_brains.png
+  description: "The formation of myelin, the fatty sheath that insulates nerve fibers, is critical for healthy brain function. A fundamental open question is what impact being born has on myelin growth. To address this, we evaluated a large (n=300) cross-sectional sample of newborns from the Developing Human Connectome Project (dHCP). First, we developed new software for the automated identification of 20 white matter bundles in individuals that is well-suited for large samples. Next, we fit linear models that quantify how T1w/T2w (a myelin-sensitive imaging contrast) changes over time at each point along the bundles. We found faster growth of T1w/T2w along the lengths of all bundles before birth than right after birth. Further, in a separate longitudinal sample of preterm infants (N=34), we found lower T1w/T2w than in full-term peers measured at the same age. By applying the linear models fit on the cross-section sample to the longitudinal sample of preterm infants, we find that their delay in T1w/T2w growth is well explained by the amount of time they spent developing in utero and ex utero. These results suggest that white matter myelinates faster in utero than ex utero . The reduced rate of myelin growth after birth, in turn, explains lower myelin content in individuals born preterm, and could account for long-term cognitive, neurological, and developmental consequences of preterm birth. We hypothesize that closely matching the environment of infants born preterm to what they would have experienced in the womb may reduce delays in myelin growth and hence improve developmental outcomes."
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2023.03.02.530800v1
+    display: "PNAS (*in press*)"
+  authors: Mareike Grotheer, David Bloom, John Kruper, Adam Richie-Halford, Stephanie Zika, Vicente A. Aguilera González, Jason D. Yeatman, Kalanit Grill-Spector, Ariel Rokem
+  highlight: 1
+  connectomics: 1
+  news2:
+
+- title: "Optic radiations representing different eccentricities age differently"
+  image: retino_or.png
+  description: "The neural pathways that carry information from the foveal, macular, and peripheral visual fields have distinct biological properties. The optic radiations (OR) carry foveal and peripheral information from the thalamus to the primary visual cortex (V1) through adjacent but separate pathways in the white matter. Here, we perform white matter tractometry using pyAFQ on a large sample of diffusion MRI (dMRI) data from subjects with healthy vision in the U.K. Biobank dataset (UKBB; N = 5,382; age 45–81). We use pyAFQ to characterize white matter tissue properties in parts of the OR that transmit information about the foveal, macular, and peripheral visual fields, and to characterize the changes in these tissue properties with age. We find that (1) independent of age there is higher fractional anisotropy, lower mean diffusivity, and higher mean kurtosis in the foveal and macular OR than in peripheral OR, consistent with denser, more organized nerve fiber populations in foveal/parafoveal pathways, and (2) age is associated with increased diffusivity and decreased anisotropy and kurtosis, consistent with decreased density and tissue organization with aging. However, anisotropy in foveal OR decreases faster with age than in peripheral OR, while diffusivity increases faster in peripheral OR, suggesting foveal/peri-foveal OR and peripheral OR differ in how they age."
+  link:
+    url: https://onlinelibrary.wiley.com/doi/10.1002/hbm.26267
+    display: "Human Brain Mapping 44 (8), 3123-3135"
+  authors: John Kruper, Noah C. Benson, Sendy Caffarra, Julia Owen, Yue Wu, Aaron Y. Lee, Cecilia S. Lee, Jason D. Yeatman, Ariel Rokem, UK Biobank Eye and Vision Consortium
+  highlight: 1
+  connectomics: 1
+  vision: 1
+  news2:
+
+- title: "Incremental improvements in tractometry-based brain-age modeling with deep learning"
+  description: "Multivariate measurements of human brain white matter (WM) with diffusion MRI (dMRI) provide information about the role of WM in a variety of cognitive functions and in brain health. Statistical models take advantage of the regularities in these data to make inferences about individual differences. For example, dMRI data provide the basis for accurate brain-age models – models that predict the chronological age of participants from WM tissue properties. Deep learning (DL) models are powerful machine learning models, which have been shown to provide benefits in many multivariate analysis settings. We investigated whether DL would provide substantial improvements for brain-age models based on dMRI measurements of WM in a large sample of children and adolescents. We found that some DL models fit the data better than a linear baseline, but the differences are small. In particular, recurrent neural network architectures provide up to ∼6% improvement in accuracy. This suggests that information about WM development is mostly accessible with linear models, and does not require the additional invariance and non-linearity offered by DL models. However, in some applications this incremental improvement may prove critical. We provide open-source software that fits DL models to dMRI data (https://yeatmanlab.github.io/AFQ-Insight)."
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2023.03.02.530885v1
+    display: "biorxiv"
+  authors: Ariel Rokem, Joanna Qiao, Jason D. Yeatman, Adam Richie-Halford
+  connectomics: 1
+  datasci: 1
+  news2:
+
 - title: "The benefits of prefetching for large-scale cloud-based neuroimaging analysis workflows"
   description: "To support the growing demands of neuroscience applications, researchers are transitioning to cloud computing for its scalable, robust and elastic infrastructure. Nevertheless, large datasets residing in object stores may result in significant data transfer overheads during workflow execution. Prefetching, a method to mitigate the cost of reading in mixed workloads, masks data transfer costs within processing time of prior tasks. We present an implementation of “Rolling Prefetch”, a Python library that implements a particular form of prefetching from AWS S3 object store, and we quantify its benefits. Rolling Prefetch extends S3Fs, a Python library exposing AWS S3 functionality via a file object, to add prefetch capabilities. In measured analysis performance of a 500 GB brain connectivity dataset stored on S3, we found that prefetching provides significant speed-ups of up to 1.86 ×, even in applications consisting entirely of data loading. The observed speed-up values are consistent with our theoretical analysis. Our results demonstrate the usefulness of prefetching for scientific data processing on cloud infrastructures and provide an implementation applicable to various application domains."
   link:
@@ -9,10 +42,10 @@
 
 - title: "An open, analysis-ready, and quality controlled resource for pediatric brain white-matter research"
   image: hbn_pod2_sankey.png
-  description: "We created resources to facilitate research on the role of human brain microstructure in the development of mental health disorders, based on openly-available diffusion MRI (dMRI) data from the Healthy Brain Network (HBN) study. First, we curated the HBN dMRI data (N=2747) into the Brain Imaging Data Structure and preprocessed it according to best-practices, including denoising and correcting for motion effects, susceptibility-related distortions, and eddy currents. Preprocessed, analysis-ready data was made openly available. Data quality plays a key role in the analysis of dMRI, and we provide automated quality control (QC) scores for every scan, as part of the data release. To scale QC to this large dataset, we trained a neural network through the combination of a small data subset scored by experts and a larger set scored by community scientists. The network performs QC highly concordant with that of experts on a held out set (ROC-AUC = 0.947). A further analysis of the neural network demonstrates that it relies on image features with relevance to QC. Altogether, this work both delivers a resource for transdiagnostic research in brain connectivity and pediatric mental health and serves as a novel tool for automated QC of large datasets."
+  description: "We created resources to facilitate research on the role of human brain microstructure in the development of mental health disorders, based on openly-available diffusion MRI (dMRI) data from the Healthy Brain Network (HBN) study. First, we curated the HBN dMRI data (N=2,747) into the Brain Imaging Data Structure and preprocessed it according to best-practices, including denoising and correcting for motion effects, susceptibility-related distortions, and eddy currents. Preprocessed, analysis-ready data was made openly available. Data quality plays a key role in the analysis of dMRI, and we provide automated quality control (QC) scores for every scan, as part of the data release. To scale QC to this large dataset, we trained a neural network through the combination of a small data subset scored by experts and a larger set scored by community scientists. The network performs QC highly concordant with that of experts on a held out set (ROC-AUC = 0.947). A further analysis of the neural network demonstrates that it relies on image features with relevance to QC. Altogether, this work both delivers a resource for transdiagnostic research in brain connectivity and pediatric mental health and serves as a novel tool for automated QC of large datasets."
   link:
     url: https://www.biorxiv.org/content/10.1101/2022.02.24.481303v1
-    display: "Biorxiv"
+    display: "Scientific Data ()"
   authors: Adam Richie-Halford, Matthew Cieslak, Lei Ai, Sendy Caffarra, Sydney Covitz, Alexandre R. Franco, Iliana I. Karipidis, John Kruper, Michael Milham, Bárbara Avelar-Pereira, Ethan Roy, Valerie J. Sydnor, Jason Yeatman, The Fibr Community Science Consortium, Theodore D. Satterthwaite, Ariel Rokem
   highlight: 1
   connectomics: 1
@@ -40,7 +73,7 @@ also points to previously unknown or disputed features, such as pulmonary
 capacity and retinal outer layers."
   link:
     url: https://pubmed.ncbi.nlm.nih.gov/33945818/
-    display:  "American Journal of Ophthalmology"
+    display:  "American Journal of Ophthalmology 231:154-169"
   authors: Parmita Mehta, Christine A Petersen, Joanne C Wen, Michael R Banitt, Philip P Chen, Karine D Bojikian, Catherine Egan, Su-In Lee, Magdalena Balazinska, Aaron Y Lee & Ariel Rokem (last two authors contributed equally)
   highlight: 1
   datasci: 1
@@ -53,7 +86,7 @@ capacity and retinal outer layers."
   description: "The validity of research results depends on the reliability of analysis methods. In recent years, there have been concerns about the validity of research that uses diffusion-weighted MRI (dMRI) to understand human brain white matter connections in vivo, in part based on reliability of the analysis methods used in this field. We defined and assessed three dimensions of reliability in dMRI-based tractometry, an analysis technique that assesses the physical properties of white matter pathways: (1) reproducibility, (2) test-retest reliability and (3) robustness. To facilitate reproducibility, we provide software that automates tractometry (https://yeatmanlab.github.io/pyAFQ). In measurements from the Human Connectome Project, as well as clinical-grade measurements, we find that tractometry has high test-retest reliability that is comparable to most standardized clinical assessment tools. We find that tractometry is also robust: showing high reliability with different choices of analysis algorithms. Taken together, our results suggest that tractometry is a reliable approach to analysis of white matter connections. The overall approach taken here both demonstrates the specific trustworthiness of tractometry analysis and outlines what researchers can do to demonstrate the reliability of computational analysis pipelines in neuroimaging."
   link:
     url: https://www.biorxiv.org/content/10.1101/2021.02.24.432740v1
-    display:  "Aperture (in press)"
+    display:  "Aperture Neuro 1:1-25"
   authors: John Kruper, Jason Yeatman, Adam Richie-Halford, David Bloom, Mareike Grotheer, Sendy Caffarra, Gregory Kiar, Iliana Karipidis, Ethan Roy & Ariel Rokem
   highlight: 1
   connectomics: 1

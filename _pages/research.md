@@ -12,7 +12,7 @@ The brain is a tremendously complex system. In order to understand it we are goi
 
 ## Human Connectomics
 
-White matter connections between brain regions form a network that integrates information across the brain, comprising approximately 45% of the total cortical volume. Diffusion MRI (dMRI) is a technique that non-invasively measures properties of the white matter, assessing individual differences in the properties of the major tracts. We develop computational tools for analysis of dMRI data. Together with [Jason Yeatman's group at Stanford](https://www.brainandeducation.com/) and [Noah Simon](https://faculty.washington.edu/nrsimon/) in the Department of Biostatistics, we established [DIRECT (Data Intensive Research in Connectomics)](https://autofq.org/), a research collaboration focused on use of large-scale datasets of human neuroimaging data to understand the brain and the complex relationships between the properties of brain networks, complex behavior and brain health.
+White matter connections between brain regions form a network that integrates information across the brain, comprising approximately 45% of the total cortical volume. Diffusion MRI (dMRI) is a technique that non-invasively measures properties of the white matter, assessing individual differences in the properties of the major tracts. We develop computational tools for analysis of dMRI data, and apply these tools in large-scale datasets of human neuroimaging data to understand the brain and the complex relationships between the properties of brain networks, complex behavior and brain health.
 
 ### Tools and publications:
 
@@ -46,7 +46,7 @@ system evolves over time, and in response to disease.
 
 ## Cloud-enabled data-driven discovery
 
-Progress in understanding the brain depends on sophisticated analysis of massive neuroscience datasets. This requires the adoption of data science technologies that are emerging in industry, such as cloud computing. One of the objectives of our work is to reduce the barriers to wider adoption of these technologies. We are exploring multiple aspects of cloud computing. This includes development of software for deployment of computations to cloud systems, as well as work on web-based tools for data visualization and apps for citizen science. Together with [Beth Buffalo](https://buffalomemorylab.com/) and [Adrienne Fairhall](https://fairhalllab.com/) in the Department of Physiology and Biophysics, and in collaboration with the [Jupyter](https://jupyter.org/) team, we established a cloud-based platform for interactive computing in multi-electrode recordings from human and non-human primate brain.
+Progress in understanding the brain depends on sophisticated analysis of massive neuroscience datasets. This requires the adoption of data science technologies that are emerging in industry, such as cloud computing. One of the objectives of our work is to reduce the barriers to wider adoption of these technologies. We are exploring multiple aspects of cloud computing. This includes development of software for deployment of computations to cloud systems, as well as work on web-based tools for data visualization and apps for citizen science.
 
 
 ### Tools and publications:
