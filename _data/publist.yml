@@ -2,8 +2,8 @@
   image: baby_brains.png
   description: "The formation of myelin, the fatty sheath that insulates nerve fibers, is critical for healthy brain function. A fundamental open question is what impact being born has on myelin growth. To address this, we evaluated a large (n=300) cross-sectional sample of newborns from the Developing Human Connectome Project (dHCP). First, we developed new software for the automated identification of 20 white matter bundles in individuals that is well-suited for large samples. Next, we fit linear models that quantify how T1w/T2w (a myelin-sensitive imaging contrast) changes over time at each point along the bundles. We found faster growth of T1w/T2w along the lengths of all bundles before birth than right after birth. Further, in a separate longitudinal sample of preterm infants (N=34), we found lower T1w/T2w than in full-term peers measured at the same age. By applying the linear models fit on the cross-section sample to the longitudinal sample of preterm infants, we find that their delay in T1w/T2w growth is well explained by the amount of time they spent developing in utero and ex utero. These results suggest that white matter myelinates faster in utero than ex utero . The reduced rate of myelin growth after birth, in turn, explains lower myelin content in individuals born preterm, and could account for long-term cognitive, neurological, and developmental consequences of preterm birth. We hypothesize that closely matching the environment of infants born preterm to what they would have experienced in the womb may reduce delays in myelin growth and hence improve developmental outcomes."
   link:
-    url: https://www.biorxiv.org/content/10.1101/2023.03.02.530800v1
-    display: "PNAS (*in press*)"
+    url: https://www.pnas.org/doi/10.1073/pnas.2303491120
+    display: "PNAS 120 (33) e2303491120"
   authors: Mareike Grotheer, David Bloom, John Kruper, Adam Richie-Halford, Stephanie Zika, Vicente A. Aguilera González, Jason D. Yeatman, Kalanit Grill-Spector & Ariel Rokem
   highlight: 1
   connectomics: 1
