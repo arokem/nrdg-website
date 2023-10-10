@@ -8,7 +8,7 @@ permalink: /research/
 
 # Research
 
-The brain is a tremendously complex system. In order to understand it we are going to need large amounts of data from many different kinds of measurements. We use data science methods to integrate the information provided by these measurements into a coherent picture. In particular, we develop statistical analysis techniques to decipher the role of networks of brain areas in complex behaviors and in brain disorders. We implement these techniques in robust, efficient, and openly-available computer software.
+The brain is a tremendously complex system. In order to understand it we are going to need large amounts of data from many different kinds of measurements. We use data science methods to integrate the information provided by these measurements into a coherent picture. In particular, we develop image processing pipelines, statistical analysis techniques, and visualization tools to decipher the role of networks of brain areas in development, in complex behaviors and in brain disorders. We implement these methods in robust, efficient, and openly-available computer software.
 
 ## Human Connectomics
 
