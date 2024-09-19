@@ -10,6 +10,19 @@
   vision: 1
   news2:
 
+- title: "Tractometry of Human Visual White Matter Pathways in Health and Disease"
+  image: visual_white_matter.png
+  description: "Diffusion-weighted MRI (dMRI) provides a unique non-invasive view of human brain tissue properties. The present review article focuses on tractometry analysis methods that use dMRI to assess the properties of brain tissue within the long-range connections comprising brain networks. We focus specifically on the major white matter tracts that convey visual information. These connections are particularly important because vision provides rich information from the environment that supports a large range of daily life activities. Many of the diseases of the visual system are associated with advanced aging, and tractometry of the visual system is particularly important in the modern aging society. We provide an overview of the tractometry analysis pipeline, which includes a primer on dMRI data acquisition, voxelwise model fitting, tractography, recognition of white matter tracts, and calculation of tract tissue property profiles. We then review dMRI-based methods for analyzing visual white matter tracts: the optic nerve, optic tract, optic radiation, forceps major, and vertical occipital fasciculus. For each tract, we review background anatomical knowledge together with recent findings in tractometry studies on these tracts and their properties in relation to visual function and disease. Overall, we find that measurements of the brain's visual white matter are sensitive to a range of disorders and correlate with perceptual abilities. We highlight new and promising analysis methods, as well as some of the current barriers to progress toward integration of these methods into clinical practice. These barriers, such as variability in measurements between protocols and instruments, are targets for future development."
+  link:
+    url: https://www.jstage.jst.go.jp/article/mrms/23/3/23_rev.2024-0007/_article
+    display: "Magnetic Resonance in Medical Sciences, 23(3), 2024"
+  authors: Hiromasa Takemura, John Kruper, Toshikazu Miyata, & Ariel Rokem
+  highlight: 1
+  connectomics: 1
+  vision: 1
+  news2:
+
+
 - title: "Tractometry of the Human Connectome Project: resources and insights"
   image: hcp_tractometry.jpeg
   description: "The Human Connectome Project (HCP) has become a keystone dataset in human neuroscience, with a plethora of important applications in advancing brain imaging methods and an understanding of the human brain. We focused on tractometry of HCP diffusion-weighted MRI (dMRI) data. We used an open-source software library (pyAFQ; https://yeatmanlab.github.io/pyAFQ) to perform probabilistic tractography and delineate the major white matter pathways in the HCP subjects that have a complete dMRI acquisition (n = 1,041). We used diffusion kurtosis imaging (DKI) to model white matter microstructure in each voxel of the white matter, and extracted tract profiles of DKI-derived tissue properties along the length of the tracts. We explored the empirical properties of the data: first, we assessed the heritability of DKI tissue properties using the known genetic linkage of the large number of twin pairs sampled in HCP. Second, we tested the ability of tractometry to serve as the basis for predictive models of individual characteristics (e.g., age, crystallized/fluid intelligence, reading ability, etc.), compared to local connectome features. To facilitate the exploration of the dataset we created a new web-based visualization tool and use this tool to visualize the data in the HCP tractometry dataset. Finally, we used the HCP dataset as a test-bed for a new technological innovation: the TRX file-format for representation of dMRI-based streamlines. We released the processing outputs and tract profiles as a publicly available data resource through the AWS Open Data program's Open Neurodata repository. We found heritability as high as 0.9 for DKI-based metrics in some brain pathways. We also found that tractometry extracts as much useful information about individual differences as the local connectome method. We released a new web-based visualization tool for tractometry—“Tractoscope” (https://nrdg.github.io/tractoscope). We found that the TRX files require considerably less disk space-a crucial attribute for large datasets like HCP. In addition, TRX incorporates a specification for grouping streamlines, further simplifying tractometry analysis."
@@ -44,16 +57,6 @@
   vision: 1
   news2:
 
-- title: "Incremental improvements in tractometry-based brain-age modeling with deep learning"
-  description: "Multivariate measurements of human brain white matter (WM) with diffusion MRI (dMRI) provide information about the role of WM in a variety of cognitive functions and in brain health. Statistical models take advantage of the regularities in these data to make inferences about individual differences. For example, dMRI data provide the basis for accurate brain-age models – models that predict the chronological age of participants from WM tissue properties. Deep learning (DL) models are powerful machine learning models, which have been shown to provide benefits in many multivariate analysis settings. We investigated whether DL would provide substantial improvements for brain-age models based on dMRI measurements of WM in a large sample of children and adolescents. We found that some DL models fit the data better than a linear baseline, but the differences are small. In particular, recurrent neural network architectures provide up to ∼6% improvement in accuracy. This suggests that information about WM development is mostly accessible with linear models, and does not require the additional invariance and non-linearity offered by DL models. However, in some applications this incremental improvement may prove critical. We provide open-source software that fits DL models to dMRI data (https://yeatmanlab.github.io/AFQ-Insight)."
-  link:
-    url: https://www.biorxiv.org/content/10.1101/2023.03.02.530885v1
-    display: "biorxiv"
-  authors: Ariel Rokem, Joanna Qiao, Jason D. Yeatman & Adam Richie-Halford
-  connectomics: 1
-  datasci: 1
-  news2:
-
 - title: "The benefits of prefetching for large-scale cloud-based neuroimaging analysis workflows"
   description: "To support the growing demands of neuroscience applications, researchers are transitioning to cloud computing for its scalable, robust and elastic infrastructure. Nevertheless, large datasets residing in object stores may result in significant data transfer overheads during workflow execution. Prefetching, a method to mitigate the cost of reading in mixed workloads, masks data transfer costs within processing time of prior tasks. We present an implementation of “Rolling Prefetch”, a Python library that implements a particular form of prefetching from AWS S3 object store, and we quantify its benefits. Rolling Prefetch extends S3Fs, a Python library exposing AWS S3 functionality via a file object, to add prefetch capabilities. In measured analysis performance of a 500 GB brain connectivity dataset stored on S3, we found that prefetching provides significant speed-ups of up to 1.86 ×, even in applications consisting entirely of data loading. The observed speed-up values are consistent with our theoretical analysis. Our results demonstrate the usefulness of prefetching for scientific data processing on cloud infrastructures and provide an implementation applicable to various application domains."
   link:
@@ -73,36 +76,6 @@
   highlight: 1
   connectomics: 1
   news2:
-
-- title: "Automated detection of glaucoma with interpretable machine learning using clinical data and multi-modal retinal images"
-  image: interpretable_glaucoma.jpg
-  description: "Glaucoma, the leading cause of irreversible blindness worldwide, is a disease that damages the optic
-nerve. Current machine learning (ML) approaches for glaucoma detection rely on
-features such as retinal thickness maps; however, the high rate of segmentation
-errors when creating these maps increase the likelihood of faulty diagnoses.
-This paper proposes a new, comprehensive, and more accurate ML-based approach
-for population-level glaucoma screening. Our contributions include: (1) a
-multi-modal model built upon a large data set that includes demographic,
-systemic and ocular data as well as raw image data taken from color fundus
-photos (CFPs) and macular Optical Coherence Tomography (OCT) scans, (2) model
-interpretation to identify and explain data features that lead to accurate model
-performance, and (3) model validation via comparison of model output with
-clinician interpretation of CFPs. We also validated the model on a cohort that
-was not diagnosed with glaucoma at the time of imaging but eventually received a
-glaucoma diagnosis. Results show that our model is highly accurate (AUC 0.97)
-and interpretable. It validated biological features known to be related to the
-disease, such as age, intraocular pressure and optic disc morphology. Our model
-also points to previously unknown or disputed features, such as pulmonary
-capacity and retinal outer layers."
-  link:
-    url: https://pubmed.ncbi.nlm.nih.gov/33945818/
-    display:  "American Journal of Ophthalmology 231:154-169"
-  authors: Parmita Mehta, Christine A Petersen, Joanne C Wen, Michael R Banitt, Philip P Chen, Karine D Bojikian, Catherine Egan, Su-In Lee, Magdalena Balazinska, Aaron Y Lee & Ariel Rokem (last two authors contributed equally)
-  highlight: 1
-  datasci: 1
-  vision: 1
-  news2:
-
 
 - title: "Evaluating the reliability of human brain white matter tractometry"
   image: pyAFQ.png
@@ -124,16 +97,6 @@ capacity and retinal outer layers."
   authors: Adam Richie-Halford, Jason Yeatman,  Noah Simon & Ariel Rokem
   highlight: 1
   connectomics: 1
-  news2:
-
-- title: "Groupyr: Sparse Group Lasso in Python"
-  image: groupyr.png
-  description: "Groupyr is a scikit-learn compatible implementation of the sparse group lasso linear model. It is intended for high-dimensional supervised learning problems where related covariates can be assigned to predefined groups."
-  link:
-    url: https://joss.theoj.org/papers/10.21105/joss.03024
-    display:  "Journal of Open Source Software, 6(58), 3024"
-  authors: Adam Richie-Halford, Manjari Narayan, Jason Yeatman,  Noah Simon & Ariel Rokem
-  datasci: 1
   news2:
 
 - title: "Combining citizen science and deep learning to amplify expertise in neuroimaging"
@@ -171,24 +134,3 @@ capacity and retinal outer layers."
   cloud: 1
   news2:
 
-
-- title: "Hack weeks as a model for data science education and collaboration."
-  image: hackweeks.jpg
-  description: "As scientific disciplines grapple with more datasets of rapidly increasing complexity and size, new approaches are urgently required to introduce new statistical and computational tools into research communities and improve the cross-disciplinary exchange of ideas. In this paper, we introduce a type of scientific workshop, called a hack week, which allows for fast dissemination of new methodologies into scientific communities and fosters exchange and collaboration within and between disciplines. We present implementations of this concept in astronomy, neuroscience, and geoscience and show that hack weeks produce positive learning outcomes, foster lasting collaborations, yield scientific results, and promote positive attitudes toward open science."
-  link:
-    url: https://www.pnas.org/content/115/36/8872
-    display:  "PNAS, 115: 8872-8877"
-  authors: Daniela Huppenkothen, Anthony Arendt, David W. Hogg, Karthik Ram, Jacob T. VanderPlas, & Ariel Rokem
-  highlight: 1
-  datasci: 1
-  news2:
-
-- title: "A model of ganglion axon pathways accounts for percepts elicited by retinal implants"
-  image: argus_shapes.jpeg
-  description: "Degenerative retinal diseases such as retinitis pigmentosa and macular degeneration cause irreversible vision loss in more than 10 million people worldwide. Retinal prostheses, now implanted in over 250 patients worldwide, electrically stimulate surviving cells in order to evoke neuronal responses that are interpreted by the brain as visual percepts (‘phosphenes’). However, instead of seeing focal spots of light, current implant users perceive highly distorted phosphenes that vary in shape both across subjects and electrodes. We characterized these distortions by asking users of the Argus retinal prosthesis system (Second Sight Medical Products Inc.) to draw electrically elicited percepts on a touchscreen. Using ophthalmic fundus imaging and computational modeling, we show that elicited percepts can be accurately predicted by the topographic organization of optic nerve fiber bundles in each subject’s retina, successfully replicating visual percepts ranging from ‘blobs’ to oriented ‘streaks’ and ‘wedges’ depending on the retinal location of the stimulating electrode. This provides the first evidence that activation of passing axon fibers accounts for the rich repertoire of phosphene shape commonly reported in psychophysical experiments, which can severely distort the quality of the generated visual experience. Overall our findings argue for more detailed modeling of biological detail across neural engineering applications."
-  link:
-    url: https://www.nature.com/articles/s41598-019-45416-4.pdf
-    display:  "Scientific Reports,  9:9199"
-  authors: Michael Beyeler, Devyani Nanduri, James D Weiland, Ariel Rokem, Geoffrey M Boynton & Ione Fine
-  vision: 1
-  news2:
