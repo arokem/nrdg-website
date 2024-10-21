@@ -93,9 +93,12 @@ Jump to [staff](#staff), [alumni](#alumni), [collaborators](#collaborators).
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" alt="" width="25%" style="float: left" />
+  {% endif %}
+
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
+  <i>Current: {{ member.duration }} <br> Role in the lab: {{ member.info }}</i>
   <ul style="overflow: hidden">
 
   </ul>

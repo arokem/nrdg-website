@@ -1,6 +1,9 @@
+- name: Teresa Gomez
+  info: Post-bacc student (2022-2024)
+
 - name: Adam Richie-Halford
   photo: richford.jpeg
-  duration: Postdoc, Stanford
+  duration: Research Scientist, Stanford
   info: Postdoc (2020 - 2022)
   website: https://richiehalford.org/
 
@@ -12,6 +15,7 @@
 
 - name: Valerie Hayot-Sasson
   photo: valerie.jpg
+  duration: Postdoc, University of Chicago
   info: Visiting student (Virtually; Spring/Summer 2021)
 
 - name: David Bloom
@@ -21,7 +25,7 @@
 
 - name: Anisha Keshavan
   photo: anisha.jpeg
-  duration: Senior Data Scientist at Octave Biosciences
+  duration: Senior Data Scientist, Big Hat Bio
   info: Postdoc (with Jason Yeatman; 2017 - 2019)
   website: https://anisha.pizza/
 
@@ -33,3 +37,4 @@
 - name: Ezgi Yucel
   photo: ezgirmak.jpeg
   info: Phd student (2018 - 2019; with Ione Fine)
+
