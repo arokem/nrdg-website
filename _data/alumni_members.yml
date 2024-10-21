@@ -1,40 +1,42 @@
-- name: Teresa Gomez
-  info: Post-bacc student (2022-2024)
 
 - name: Adam Richie-Halford
   photo: richford.jpeg
-  duration: Research Scientist, Stanford
+  current: Research Scientist, Stanford
   info: Postdoc (2020 - 2022)
   website: https://richiehalford.org/
 
 - name: Manjari Narayan
   photo: manjari.png
-  duration: Machine Learning Scientist at Dyno Therapeutics.
+  current: Machine Learning Scientist at Dyno Therapeutics.
   info: Postdoc (with Jason Yeatman; 2020 - 2021)
   website: https://research.manjarinarayan.org/
 
 - name: Valerie Hayot-Sasson
   photo: valerie.jpg
-  duration: Postdoc, University of Chicago
+  current: Postdoc, University of Chicago
   info: Visiting student (Virtually; Spring/Summer 2021)
 
 - name: David Bloom
   photo: bloomdt.png
-  duration: Graduate Student, TReNDS Center, Georgia State University
+  current: Graduate Student, TReNDS Center, Georgia State University
   info: Post-bacc student (2020 - 2021)
 
 - name: Anisha Keshavan
   photo: anisha.jpeg
-  duration: Senior Data Scientist, Big Hat Bio
+  current: Senior Data Scientist, Big Hat Bio
   info: Postdoc (with Jason Yeatman; 2017 - 2019)
   website: https://anisha.pizza/
 
 - name: Michael Beyeler
   photo: mbeyeler.jpeg
-  duration: Assistant Professor, University of California, Santa Barbara
+  current: Assistant Professor, University of California, Santa Barbara
   info: Postdoc (with Ione Fine; 2016 - 2019)
 
 - name: Ezgi Yucel
   photo: ezgirmak.jpeg
-  info: Phd student (2018 - 2019; with Ione Fine)
+  current: Research Scientist, Vivid Vision
+  info: Phd student (2018 - 2023; with Ione Fine)
+
+- name: Teresa Gomez
+  info: Post-bacc student (2022-2024)
 
