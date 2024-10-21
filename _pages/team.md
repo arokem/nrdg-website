@@ -98,12 +98,10 @@ Jump to [staff](#staff), [alumni](#alumni), [collaborators](#collaborators).
   {% endif %}
 
   <h4>{{ member.name }}</h4>
-  <i>
   {% if member.current %}
-  Current: {{ member.current }}
+  <i>Current: {{ member.current }}</i><br>
   {% endif %}
-  <br>Role in the lab: {{ member.info }}
-  </i>
+  <i>Role in the lab: {{ member.info }}</i>
   <ul style="overflow: hidden">
   </ul>
 </div>
