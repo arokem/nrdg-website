@@ -8,17 +8,26 @@
   photo: kelly.jpg
   info: Research Scientist
 
-- name: Asa Gilmore
-  photo: asa.jpg
-  info: Research Assistant
-
 - name: Sam Chou
   photo: samchou.png
+  info: Research Assistant
+
+- name: Asa Gilmore
+  photo: asa.jpg
   info: Research Assistant
 
 - name: McKenzie Hagen
   photo: mckenzie_headshot.jpg
   info: Graduate student
+  # email: foo@uw.edu
+  # number_educ: 3
+  # education1:
+  # education2:
+  # education3:
+
+- name: Griffyn Kolpin
+  photo: griffyn.png
+  info: Psychology honors student
   # email: foo@uw.edu
   # number_educ: 3
   # education1:
@@ -33,3 +42,4 @@
   # education1:
   # education2:
   # education3:
+
