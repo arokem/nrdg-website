@@ -8,6 +8,10 @@
   photo: kelly.jpg
   info: Research Scientist
 
+- name: Samanthan Eaton
+  photo: samantha.jpg
+  info: Graduate student
+
 - name: Asa Gilmore
   photo: asa.jpg
   info: Research Student
@@ -39,3 +43,6 @@
   # education2:
   # education3:
 
+- name: John Romero
+  photo: johnr.jpg
+  info: Graduate student
